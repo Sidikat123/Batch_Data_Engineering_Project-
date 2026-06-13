@@ -6,3 +6,5 @@ __pycache__/
 *.pptx
 *.docx
 *.pdf
+.venv
+
