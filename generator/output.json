@@ -1,0 +1,48 @@
+[{'customer_id': 'CUST54014', 
+ name': 'Nichole Cooper', 
+ 'email': 'rperez@example.com', 
+            'phone': '+1-289-217-5060x4681', '
+                city': 'North Grace', 'batch_id': 
+                    'batch_001', 
+                        'created_at': datetime.datetime(2026, 6, 9, 11, 0, 21, 193044, tzinfo=datetime.timezone.utc), 'emails': None}, 
+
+{'customer_id': 'CUST48963', 
+'name': 'Richard Johnson MD', 
+'email': 'nicole87@example.com', 
+'phone': '773.355.8634x51736', 
+'city': 'Connieshire', 
+'batch_id': 'batch_001', 
+'created_at': datetime.datetime(2026, 6, 9, 11, 0, 21, 193044, tzinfo=datetime.timezone.utc)}, 
+
+
+{'customer_id': 'CUST39846', 'name': 'Roy Dominguez', 'email': 'brandon73@example.net', 'phone': '(424)641-7679x93049', 'city': 'Ronaldberg', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 11, 0, 21, 194045, tzinfo=datetime.timezone.utc)}, {'customer_id': 'CUST29648', 'name': 'Miss Mary Smith PhD', 'email': 'rogerfuentes@example.net', 'phone': '465.402.3900', 'city': 'West Davidberg', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 11, 0, 21, 194045, tzinfo=datetime.timezone.utc)}, {'customer_id': 'CUST30844', 'name': 'Nicole Gamble', 'email': 'ewhite@example.com', 'phone': '3649622404', 'city': 'Smithbury', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 11, 0, 21, 195044, tzinfo=datetime.timezone.utc)}, {'customer_id': 'CUST72721', 'name': 'Shelby Bauer', 'email': 'nicole99@example.org', 'phone': '+1-616-432-8682x27031', 'city': 'Camerontown', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 11, 0, 21, 195044, tzinfo=datetime.timezone.utc)}, {'customer_id': 'CUST74585', 'name': 'April Boyer', 'email': 'brooksdeborah@example.com', 'phone': '001-474-483-1290x8803', 'city': 'East Carlbury', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 11, 0, 21, 196048, tzinfo=datetime.timezone.utc)}, {'customer_id': 'CUST84558', 'name': 'Nathan Cameron', 'email': 'nhester@example.org', 'phone': '+1-473-721-6144x64763', 'city': 'Lake Robertostad', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 11, 0, 21, 196048, tzinfo=datetime.timezone.utc)}, {'customer_id': 'CUST58589', 'name': 'Mary Mason', 'email': 'uwright@example.net', 'phone': '+1-870-964-4759x53030', 'city': 'West Victor', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 11, 0, 21, 196048, tzinfo=datetime.timezone.utc)}, {'customer_id': 'CUST36065', 'name': 'Helen Acosta', 'email': 'kathrynthornton@example.org', 'phone': '6943950610', 'city': 'Lake Andrew', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 11, 0, 21, 197046, tzinfo=datetime.timezone.utc)}, {'customer_id': 'CUST16619', 'name': 'Robert Flores', 'email': 'james24@example.com', 'phone': '488-877-3224x76870', 'city': 'New David', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 11, 0, 21, 197046, tzinfo=datetime.timezone.utc), 'emails': 'invalid_emails@@'}, {'customer_id': 'CUST23398', 'name': 'Elizabeth Allison', 'email': 'robinreed@example.net', 'phone': '426-836-4713x473', 'city': 'Lisaburgh', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 11, 0, 21, 198050, tzinfo=datetime.timezone.utc)}, {'customer_id': 'CUST24485', 'name': 'Wendy Horton', 'email': 'hodgescheryl@example.com', 'phone': '001-281-627-7425x0853', 'city': 'Brandonmouth', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 11, 0, 21, 198050, tzinfo=datetime.timezone.utc)}, {'customer_id': 'CUST77481', 'name': 'Craig Mcgee', 'email': 'stonecathy@example.org', 'phone': '698.756.1134', 'city': 'East Justinmouth', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 11, 0, 21, 199050, tzinfo=datetime.timezone.utc)}, {'customer_id': 'CUST53545', 'name': 'Stephanie Willis', 'email': 'qjackson@example.org', 'phone': '635-750-6314x741', 'city': '', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 11, 0, 21, 199050, tzinfo=datetime.timezone.utc)}, {'customer_id': 'CUST49654', 'name': 'John Turner', 'email': 'nunezvirginia@example.com', 'phone': '745.539.7342', 'city': 'Taratown', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 11, 0, 21, 200051, tzinfo=datetime.timezone.utc)}]
+
+
+
+[{'product_id': 'PROD4676', 
+'product_name': 'Hoodie', 
+'category': 'Clothing', 
+'price': 423.23, 
+'batch_id': 'batch_001', 
+'created_at': datetime.datetime(2026, 6, 9, 12, 28, 46, 768031, tzinfo=datetime.timezone.utc)}, 
+
+{'product_id': 'PROD2001', 
+'product_name': 'Thermos Flask',
+ 'category': 'Home & Kitchen', 
+ 'price': 718.78, 'batch_id': 
+ 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 12, 28, 46, 768031, tzinfo=datetime.timezone.utc)}, 
+ 
+ {'product_id': 'PROD2049', 'product_name': 'Dinner Set', 'category': 'Home & Kitchen', 'price': 291.66, 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 12, 28, 46, 768031, tzinfo=datetime.timezone.utc)}, {'product_id': 'PROD2786', 'product_name': 'Maize Flour 2kg', 'category': 'Groceries', 'price': 271.96, 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 12, 28, 46, 768031, tzinfo=datetime.timezone.utc)}, {'product_id': 'PROD2755', 'product_name': 'Sugar 2kg', 'category': 'Groceries', 'price': 179.78, 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 12, 28, 46, 768031, tzinfo=datetime.timezone.utc)}, {'product_id': 'PROD4997', 'product_name': 'Thermos Flask', 'category': 'Home & Kitchen', 'price': 1076.45, 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 12, 28, 46, 768031, tzinfo=datetime.timezone.utc)}]
+
+
+
+ [{'order_id': 'ORD39870',
+  'customer_id': 'CUST88609',
+   'product_id': 'PROD77750',
+    'region': 'Mandera East',
+     'amount': 513.22,
+      'payment_status': 'paid',
+       'batch_id': 'batch_001',
+        'created_at': datetime.datetime(2026, 6, 9, 17, 15, 52, 51463, tzinfo=datetime.timezone.utc)}, 
+        
+        {'order_id': 'ORD10739', 'customer_id': 'CUST48366', 'product_id': 'PROD72113', 'region': 'Mandera East', 'amount': 4643.57, 'payment_status': 'paid', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 17, 15, 52, 51463, tzinfo=datetime.timezone.utc)}, {'order_id': 'ORD14672', 'customer_id': 'CUST59080', 'product_id': 'PROD77750', 'region': 'Mandera Central', 'amount': 1174.43, 'payment_status': 'failed', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 17, 15, 52, 51463, tzinfo=datetime.timezone.utc)}, {'order_id': 'ORD2209', 'customer_id': 'CUST93329', 'product_id': 'PROD81440', 'region': 'Mandera West', 'amount': 3544.46, 'payment_status': 'paid', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 17, 15, 52, 51463, tzinfo=datetime.timezone.utc)}, {'order_id': 'ORD18130', 'customer_id': 'CUST80034', 'product_id': 'PROD76880', 'region': 'Mandera Central', 'amount': 4849.3, 'payment_status': 'pending', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 17, 15, 52, 51463, tzinfo=datetime.timezone.utc)}, {'order_id': 'ORD54186', 'customer_id': 'CUST73599', 'product_id': 'PROD81440', 'region': 'Mandera West', 'amount': 1646.96, 'payment_status': 'failed', 'batch_id': 'batch_001', 'created_at': datetime.datetime(2026, 6, 9, 17, 15, 52, 51463, tzinfo=datetime.timezone.utc)}]
