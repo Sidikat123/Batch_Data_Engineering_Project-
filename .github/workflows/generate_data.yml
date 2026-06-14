@@ -34,6 +34,12 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Check Mongo URI environment variables
+        run: |
+          echo "Checking Mongo URI variables (will not print secret values)"
+          if [ -z "$MONGO_URI" ]; then echo "MONGO_URI is EMPTY"; else echo "MONGO_URI is SET"; fi
+          if [ -z "$MONGODB_URI" ]; then echo "MONGODB_URI is EMPTY"; else echo "MONGODB_URI is SET"; fi
+
       - name: Generate synthetic data → MongoDB Atlas
         env:
           MONGO_URI: ${{ secrets.MONGO_URI }}
