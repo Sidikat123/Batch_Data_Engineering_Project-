@@ -15,10 +15,10 @@ from dotenv import load_dotenv
 load_dotenv(Path(__file__).parent / ".env")
 
 # ____ MongoDB Atlas__________________________________________
-MONGO_URI = os.getenv("MONGO_URI", os.getenv("MONGODB_URI"))
+MONGO_URI = os.getenv("MONGO_URI")
 if not MONGO_URI:
     raise EnvironmentError(
-        "MONGO_URI is not set. Provide your MongoDB Atlas connection string as the MONGO_URI environment variable or in .env"
+        "MONGO_URI is not set. Provide your MongoDB Atlas connection string in .env"
     )
 MONGO_DB = os.getenv("MONGO_DB", "mandera_analytics")
 
