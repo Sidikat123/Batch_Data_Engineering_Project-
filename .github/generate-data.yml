@@ -32,7 +32,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install faker pymongo python-dotenv
+        run: pip install faker pymongo dotenv
 
       - name: Generate synthetic data → MongoDB Atlas
         env:
