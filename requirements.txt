@@ -1,9 +1,9 @@
 # Data generation
 faker>=28.0.0
-dotenv>=1.0.0
+python-dotenv>=1.0.0
 
-# MongoDB
-pymongo>=4.7.0
+# MongoDB (with SRV support for Atlas)
+pymongo[srv]>=4.7.0
 
 # PostgreSQL
 psycopg2-binary>=2.9.9
@@ -18,7 +18,4 @@ pandas>=2.2.0
 # Airflow (provided by base image, listed for reference)
 # apache-airflow>=2.9.0
 
-# Install the SRV support for  MongoDB Atlas connection
-python -m pip install "pymongo[srv]"
-
-dotenv
+# Note: SRV extras specified above; don't include pip commands here.
