@@ -108,9 +108,9 @@ services:
     <<: *airflow-common
     command: >
       bash -c "
-        psql -h postgres -U ${POSTGRES_USER:-pipeline} -d ${POSTGRES_DB:-begine_fusion_warehouse} -f /opt/airflow/sql/create_raw_tables.sql &&
-        psql -h postgres -U ${POSTGRES_USER:-pipeline} -d ${POSTGRES_DB:-begine_fusion_warehouse} -f /opt/airflow/sql/create_staging_tables.sql &&
-        psql -h postgres -U ${POSTGRES_USER:-pipeline} -d ${POSTGRES_DB:-begine_fusion_warehouse} -f /opt/airflow/sql/create_monitoring_tables.sql
+        psql -h postgres -U ${POSTGRES_USER:-pipeline} -d ${POSTGRES_DB:-mandera_warehouse} -f /opt/airflow/sql/create_raw_tables.sql &&
+        psql -h postgres -U ${POSTGRES_USER:-pipeline} -d ${POSTGRES_DB:-andera_warehouse} -f /opt/airflow/sql/create_staging_tables.sql &&
+        psql -h postgres -U ${POSTGRES_USER:-pipeline} -d ${POSTGRES_DB:-andera_warehouse} -f /opt/airflow/sql/create_monitoring_tables.sql
       "
     environment:
       PGPASSWORD: ${POSTGRES_PASSWORD:-pipeline_secret}

@@ -1,6 +1,7 @@
 # Mandera — Batch Data Pipeline
 
-A batch data engineering pipeline built for Mandera, a digital transformation and AI systems consultancy headquartered in Calgary, Alberta. The pipeline generates synthetic transactional data representing Begine Fusion's client operations, stores it in MongoDB Atlas, extracts it into MinIO and PostgreSQL, transforms it into analytics-ready staging tables, and orchestrates everything through Apache Airflow.
+A batch data engineering pipeline built for Mandera, a digital transformation and AI systems consultancy headquartered in Calgary, Alberta. The pipeline generates synthetic transactional data representing Mandera's client operations, stores it in MongoDB Atlas, extracts it into MinIO and PostgreSQL, transforms it into analytics-ready staging tables, and orchestrates everything through Apache Airflow.
+
 
 ## Architecture
 
@@ -18,6 +19,7 @@ GitHub Actions (cron)                 Airflow DAG (Docker)
                                      │  truncate_raw_tables                │
                                      └──────────────────────────────────────┘
 ```
+
 
 ## Tech Stack
 
